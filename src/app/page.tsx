@@ -8,6 +8,10 @@ export default function Page() {
     <TranscriptProvider>
       <EventProvider>
         <App />
+        <div>
+          {/* Add this somewhere visible in your app to test */}
+          {console.log('Direct env test:', process.env.NEXT_PUBLIC_NAME)}
+        </div>
       </EventProvider>
     </TranscriptProvider>
   );

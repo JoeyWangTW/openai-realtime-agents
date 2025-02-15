@@ -1,10 +1,10 @@
 import { AllAgentConfigsType } from "@/app/types";
-import frontDeskAuthentication from "./frontDeskAuthentication";
+import outboundCaller from "./outboundCaller";
 import customerServiceRetail from "./customerServiceRetail";
 import simpleExample from "./simpleExample";
 
 export const allAgentSets: AllAgentConfigsType = {
-  frontDeskAuthentication,
+  outboundCaller,
   customerServiceRetail,
   simpleExample,
 };
