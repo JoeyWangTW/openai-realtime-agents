@@ -1,5 +1,8 @@
 from flask import Flask, request, jsonify
 from agents.agent_config import AgentSystem
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 agent_system = AgentSystem()
